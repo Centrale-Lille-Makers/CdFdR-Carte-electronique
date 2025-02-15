@@ -273,7 +273,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom:ESP32-S3-DevKit"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3164,7 +3164,7 @@
 		)
 		(uuid "5dd15df3-4c7f-42c0-8eaf-96fc355549da")
 	)
-	(global_label "M1_DIR"
+	(global_label "M4_DIR"
 		(shape input)
 		(at 43.18 162.56 180)
 		(fields_autoplaced yes)
@@ -3208,7 +3208,7 @@
 			)
 		)
 	)
-	(global_label "M2_DIR"
+	(global_label "M3_DIR"
 		(shape input)
 		(at 43.18 157.48 180)
 		(fields_autoplaced yes)
@@ -3230,7 +3230,7 @@
 			)
 		)
 	)
-	(global_label "M2_DIR"
+	(global_label "M3_DIR"
 		(shape input)
 		(at 110.49 102.87 180)
 		(fields_autoplaced yes)
@@ -3252,7 +3252,7 @@
 			)
 		)
 	)
-	(global_label "M3_STP"
+	(global_label "M2_STP"
 		(shape input)
 		(at 110.49 130.81 180)
 		(fields_autoplaced yes)
@@ -3296,7 +3296,7 @@
 			)
 		)
 	)
-	(global_label "M1_STP"
+	(global_label "M4_STP"
 		(shape input)
 		(at 110.49 69.85 180)
 		(fields_autoplaced yes)
@@ -3340,7 +3340,7 @@
 			)
 		)
 	)
-	(global_label "M2_STP"
+	(global_label "M3_STP"
 		(shape input)
 		(at 110.49 100.33 180)
 		(fields_autoplaced yes)
@@ -3362,7 +3362,7 @@
 			)
 		)
 	)
-	(global_label "M4_STP"
+	(global_label "M1_STP"
 		(shape input)
 		(at 43.18 142.24 180)
 		(fields_autoplaced yes)
@@ -3384,7 +3384,7 @@
 			)
 		)
 	)
-	(global_label "M4_DIR"
+	(global_label "M1_DIR"
 		(shape input)
 		(at 43.18 139.7 180)
 		(fields_autoplaced yes)
@@ -3406,7 +3406,7 @@
 			)
 		)
 	)
-	(global_label "M1_STP"
+	(global_label "M4_STP"
 		(shape input)
 		(at 43.18 165.1 180)
 		(fields_autoplaced yes)
@@ -3428,7 +3428,7 @@
 			)
 		)
 	)
-	(global_label "M4_STP"
+	(global_label "M1_STP"
 		(shape input)
 		(at 110.49 161.29 180)
 		(fields_autoplaced yes)
@@ -3472,7 +3472,7 @@
 			)
 		)
 	)
-	(global_label "M3_DIR"
+	(global_label "M2_DIR"
 		(shape input)
 		(at 110.49 133.35 180)
 		(fields_autoplaced yes)
@@ -3516,7 +3516,7 @@
 			)
 		)
 	)
-	(global_label "M4_DIR"
+	(global_label "M1_DIR"
 		(shape input)
 		(at 110.49 163.83 180)
 		(fields_autoplaced yes)
@@ -3538,7 +3538,7 @@
 			)
 		)
 	)
-	(global_label "M3_STP"
+	(global_label "M2_STP"
 		(shape input)
 		(at 43.18 147.32 180)
 		(fields_autoplaced yes)
@@ -3560,7 +3560,7 @@
 			)
 		)
 	)
-	(global_label "M1_DIR"
+	(global_label "M4_DIR"
 		(shape input)
 		(at 110.49 72.39 180)
 		(fields_autoplaced yes)
@@ -3626,7 +3626,7 @@
 			)
 		)
 	)
-	(global_label "M3_DIR"
+	(global_label "M2_DIR"
 		(shape input)
 		(at 43.18 144.78 180)
 		(fields_autoplaced yes)
@@ -3670,7 +3670,7 @@
 			)
 		)
 	)
-	(global_label "M2_STP"
+	(global_label "M3_STP"
 		(shape input)
 		(at 43.18 160.02 180)
 		(fields_autoplaced yes)
@@ -4016,7 +4016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d2d0531-6fe2-4a12-a0af-a01c81edc7d2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR07"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -4067,7 +4067,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR017")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4217,7 +4217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ed6eecb-2a9f-40ab-b6ec-fe190d2bb6a3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 114.3 118.11 0)
 			(effects
 				(font
@@ -4268,7 +4268,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4506,7 @@
 				)
 			)
 		)
-		(property "Value" "Pololu_Breakout"
+		(property "Value" "M1"
 			(at 121.92 140.97 0)
 			(effects
 				(font
@@ -4685,7 +4685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40565df2-8a97-4db9-97f9-5052be017889")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -4736,7 +4736,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4903,7 +4903,7 @@
 				)
 			)
 		)
-		(property "Value" "Pololu_Breakout"
+		(property "Value" "M4"
 			(at 121.92 49.53 0)
 			(effects
 				(font
@@ -5226,7 +5226,7 @@
 				)
 			)
 		)
-		(property "Value" "Pololu_Breakout"
+		(property "Value" "M3"
 			(at 121.92 80.01 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				)
 			)
 		)
-		(property "Value" "Pololu_Breakout"
+		(property "Value" "M2"
 			(at 121.92 110.49 0)
 			(effects
 				(font
@@ -5836,7 +5836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0c64123-004f-4377-912b-26aad9502797")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 104.14 151.13 0)
 			(effects
 				(font
@@ -5887,7 +5887,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5970,7 +5970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5fa9ffe-7a1c-44cc-a71d-e910734d58e4")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 114.3 90.17 0)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6104,7 +6104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b764560f-28b6-4b21-adc3-a2100c7958e0")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR016"
 			(at 104.14 148.59 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b70c5e-a07b-45e8-bfa9-7bb90be404f4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 104.14 120.65 0)
 			(effects
 				(font
@@ -6289,7 +6289,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f41e1dbd-3535-444a-8396-7b9960e10e49")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 		(instances
 			(project "CdFdR"
 				(path "/f91e69f4-9fec-420d-9fad-eb44c074ac19"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
